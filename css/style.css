@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-weight: 50;
+}
+
+.bottomNav {
+  padding: 0 0 50px 50px;
+  align-content: center;
+}
+
+footer {
+  padding-top: 20px;
+  height: 60px;
+  background-color: #080808;
+  color: white;
+}
+
+#home .homeImage {
+  padding-top: 50px;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home .homeImage .imageText {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#home .homeImage .imageText .imageTitle {
+  font-size: 60px;
+  font-weight: 350;
+}
+#home .homeImage .imageText .imageDescription {
+  font-size: 20px;
+}
+#home .darkPannel {
+  background: #282828;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.82) 100%);
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+}
+#home .darkPannel .subTitle {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-weight: bolder;
+  font-size: 2em;
+}
+#home .darkPannel .subText {
+  padding-bottom: 40px;
+  font-size: 1em;
+}
+#home .darkPannel h4 {
+  text-decoration: none;
+  font-size: 1.4em;
+}
+#home .darkPannel ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+#home .bottomSection {
+  padding: 40px;
+  color: black;
+  background: white;
+}
+#home .bottomSection .titles {
+  color: Black;
+  text-decoration: none;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#home .bottomSection table {
+  width: 100%;
+}
+#home .bottomSection table thead th {
+  padding-bottom: 10px;
+  border-bottom: 1.5px grey solid;
+}
+#home .bottomSection table tfoot td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px grey solid;
+}
+#home .bottomSection table tfoot {
+  padding-bottom: 50px;
+}
+#home .bottomSection .highlight {
+  background-color: rgba(100, 255, 100, 0.2);
+}
+#home .bottomSection ul {
+  list-style: square;
+  list-style-position: inside;
+}
+
+#software .ImageBanner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+#software .ImageBanner .imageTitle {
+  color: white;
+  padding-top: 50px;
+  transform: translateX(30%) translateY(50%);
+}
+
+#video .Popular {
+  padding-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
