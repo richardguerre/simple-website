@@ -111,13 +111,19 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 25vh;
 
     .imageTitle {
       color: white;
-      padding-top: 50px;
-      transform: translateX(30%) translateY(50%);
+      position: absolute;
+      left: 50%;
+      top: 14%;
+      transform: translateX(-50%) translateY(-3%);
     }
+  }
+
+  .droneProj {
+    img {height: 30vh;}
   }
 }
 
