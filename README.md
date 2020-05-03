@@ -1,4 +1,4 @@
-# Project 0
+# Simple website
 
 Building a portfolio website as project0 of Harvard's CS50W program.
 As per the project requirements, this is a static website that increases that utilizes all thats learned in lectures 0 and 1, on basic HTML and CSS, and Bootstrap4.
